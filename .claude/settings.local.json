@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -m venv venv)",
+      "Bash(echo \"venv created: $?\")",
+      "Bash(venv/Scripts/pip install *)",
+      "Bash(venv/Scripts/python -c \"import flask, sklearn, pandas, numpy; print\\('All packages OK'\\)\")",
+      "Bash(venv/Scripts/python -c ' *)",
+      "Bash(venv/Scripts/python app.py)",
+      "Bash(curl -s http://127.0.0.1:5000/)",
+      "Bash(Start-Process -NoNewWindow venv/Scripts/python -ArgumentList \"app.py\")"
+    ]
+  }
+}
