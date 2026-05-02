@@ -1,7 +1,11 @@
 # HeartGuard AI – Heart Disease Prediction Web App
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-heart--disease--aml.vercel.app-brightgreen?style=for-the-badge&logo=vercel)](https://heart-disease-aml.vercel.app)
+
 A production-ready Flask web application that predicts cardiovascular disease risk
 using machine learning, trained on the UCI Cleveland Heart Disease Dataset.
+
+**Live App:** https://heart-disease-aml.vercel.app
 
 ---
 
